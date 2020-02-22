@@ -1,0 +1,88 @@
+OTHER
+Starting on 9-12 at 20:46:54
+
+Question comp90054-part-1
+=========================
+*** PASS: test_cases/comp90054-part-1/ids_0.test
+*** 	solution:		['Right', 'Right']
+*** 	expanded_states:	['A', 'A', 'B']
+*** PASS: test_cases/comp90054-part-1/ids_1.test
+*** 	solution:		['Right', 'Right']
+*** 	expanded_states:	['A', 'A', 'B']
+*** PASS: test_cases/comp90054-part-1/ids_2.test
+*** 	solution:		['Right', 'Down', 'Right']
+*** 	expanded_states:	['A', 'A', 'B', 'E', 'A', 'B', 'H', 'D']
+*** PASS: test_cases/comp90054-part-1/ids_3.test
+*** 	solution:		['Right', 'Right']
+*** 	expanded_states:	['A', 'A', 'B']
+
+### Question comp90054-part-1: 4/4 ###
+
+
+Question comp90054-part-2
+=========================
+*** PASS: test_cases/comp90054-part-2/wastar_0.test
+*** 	solution:		['Right', 'Right']
+*** 	expanded_states:	['A', 'B', 'D']
+*** FAIL: test_cases/comp90054-part-2/wastar_1.test
+*** 	graph:
+*** 	         2     3     2
+*** 	      S --- A --- C ---> G
+*** 	      | \       /       ^
+*** 	    3 |  \ 5   / 1     / 
+*** 	      |   \   /       / 
+*** 	      B --- D -------/
+*** 	         4         5  
+*** 	    
+*** 	    S is the start state, G is the goal.  Arrows mark possible state 
+*** 	    transitions.  The number next to the arrow is the cost of that transition.
+*** 	    
+*** 	    The heuristic value of each state is:
+*** 	    	S 6.0
+*** 	    	A 2.5
+*** 	    	B 5.25
+*** 	    	C 1.125
+*** 	    	D 1.0625
+*** 	    	G 0
+*** 	student solution:		['DownRight', 'UpRight']
+*** 	student expanded_states:	['S', 'A', 'D', 'C']
+*** 
+*** 	correct solution:		['Right', 'Right', 'Right']
+*** 	correct expanded_states:	['S', 'A', 'D', 'C']
+*** 	correct rev_solution:		['Right', 'Right', 'Right']
+*** 	correct rev_expanded_states:	['S', 'A', 'D', 'C']
+*** PASS: test_cases/comp90054-part-2/wastar_2.test
+*** 	solution:		['Right', 'Right', 'Right']
+*** 	expanded_states:	['S', 'A', 'C']
+*** PASS: test_cases/comp90054-part-2/wastar_3.test
+*** 	solution:		['Down', 'Right']
+*** 	expanded_states:	['S', 'B']
+
+### Question comp90054-part-2: 3/4 ###
+
+
+Question comp90054-part-3
+=========================
+[SearchAgent] using function wastar and heuristic foodHeuristic
+[SearchAgent] using problem type CapsuleSearchProblem
+Warning: this does not look like a regular search maze
+Path found with total cost of 74 in 0.0 seconds
+Search nodes expanded: 60
+0.027597904205322266
+
+### Question comp90054-part-3: 6/6 ###
+
+
+Finished at 20:46:54
+
+Provisional grades
+==================
+Question comp90054-part-1: 4/4
+Question comp90054-part-2: 3/4
+Question comp90054-part-3: 6/6
+------------------
+Total: 13/14
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
